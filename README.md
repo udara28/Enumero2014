@@ -31,11 +31,13 @@ If we know the secret key decrypting is the same procedure we used to encrypt th
 
 
 ###Try our code sample:
-Hope all of you know little bit of java. We have coded the encryption and decryption algorithm in JAVA which can be found in the CrackMe folder. Try the code
+We have coded the encryption and decryption algorithm in JAVA/C++/Python which can be found in the https://github.com/udara28/Enumero2014. Try the code in any of the language you prefer. We have made the source available so you can readily use them in your solution.
 ######To Encrypt a message:
 **JAVA**	: *Java Crack encrypt \<filename.txt\> \<secret_key\>*
 
 **C++**	: *Crack encrypt \<filename.txt\> \<secret_key\>*
+
+**Python** : *python Crack.py encrypt \<filename.txt\> \<secret_key\>*
 
 	-if a key is not given “yup” will be used as the default key
 ######To Decrypt a message:
@@ -43,15 +45,19 @@ Hope all of you know little bit of java. We have coded the encryption and decryp
 
 **C++**	: *Crack decrypt \<filename.txt\> \<secret_key\>*
 
+**Python** : *python Crack.py decrypt \<filename.txt\> \<secret_key\>*
+
 	-WARNING: if you are unsure of the secret key don’t call this message because this will overwrite the original file instead use –guess flag
 ######To Guess a secret key:
 **JAVA**	: *Java Crack decrypt \<filename.txt\> -guess \<secret_key\>*
 
 **C++**	: *Crack decrypt \<filename.txt\> -guess \<secret_key\>*
 
+**Python** : *python Crack.py decrypt \<filename.txt\> -guess \<secret_key\>*
+
 	-This method will only give a console print with the decrypted string.
 ####YOUR TURN!
-Now it is your turn to come up with a Good enough Algorithm to decrypt the given secret message. To make the task easy we have used a meaningful English word with three simple letters with no repetition. You can use any programming language you like but if you use Java/C++ you can use the methods already coded by us. But since they are very simple using any other language wouldn’t be greatly affected.
+Now it is your turn to come up with a **Good enough Algorithm** to decrypt the given secret message. To make the task easy we have used a meaningful English word with three simple letters with no repetition. You can use any programming language you like but if you use Java/C++/Python you can use the methods already coded by us. But since they are very simple using any other language wouldn’t be greatly affected.
 
 ###Few thoughts for the solution:
 We’ll give you hints throughout the attempt. Please remember that there are many solutions for this problem. You can take any approach. As long as it crack the code we are happy with it. Discuss with us the methods you think might work so we could give some support to your ideas. Don’t worry we’ll help you to get there. Only thing you required is the willingness to try. 
