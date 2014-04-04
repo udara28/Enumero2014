@@ -43,10 +43,12 @@ Hope all of you know little bit of java. We have coded the encryption and decryp
 
 **C++**	: *Crack decrypt \<filename.txt\> \<secret_key\>*
 
-WARNING: if you are unsure of the secret key don’t call this message because this will overwrite the original file instead use –guess flag
-To Guess a secret key:
-JAVA	: Java Crack decrypt <filename.txt> -guess <secret_key>
-C++	: Crack decrypt <filename.txt> -guess <secret_key>
+	-WARNING: if you are unsure of the secret key don’t call this message because this will overwrite the original file instead use –guess flag
+######To Guess a secret key:
+**JAVA**	: *Java Crack decrypt \<filename.txt\> -guess \<secret_key\>*
+
+**C++**	: *Crack decrypt \<filename.txt\> -guess \<secret_key\>*
+
 	-This method will only give a console print with the decrypted string.
 ####YOUR TURN!
 Now it is your turn to come up with a Good enough Algorithm to decrypt the given secret message. To make the task easy we have used a meaningful English word with three simple letters with no repetition. You can use any programming language you like but if you use Java/C++ you can use the methods already coded by us. But since they are very simple using any other language wouldn’t be greatly affected.
